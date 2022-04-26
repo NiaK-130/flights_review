@@ -41,29 +41,29 @@ const RatingBox = styled.div`
 `
 
 const Field = styled.div`
-border-radius: 4px;
+border-radius: 4px
 
-input {
+input{
   min-height: 50px;
   border-radius: 4px;
   border: 1px solid #e6e6e6;
   margin: 0 0 12px 0;
-  padding: 12px;
+  padding: 12px
   width: 96%;
 }
 
 textarea {
-    width: 100%;
+    width: 100%
     min-height: 80px;
     border-radius: 4px;
     border: 1px solid #e6e6e6;
     margin: 12px 0;
-    padding: 12px;
+    padding: 12px
 }
 
 `
 const Wrapper = styled.div`
-background:#fff;
+background:white;
 padding:20px;
 margin-left: 15px;
 border-radius: 0;
@@ -71,7 +71,7 @@ padding-bottom:80px;
 border-left: 1px solid rgba(0,0,0,0.1);
 height: 100vh;
 padding-top: 100px;
-background: #000;
+background: black;
 padding-right: 80px;
 
   

@@ -1,4 +1,3 @@
-
 import React from 'react'
 import Rating from '../Rating/Rating'
 import styled from 'styled-components'

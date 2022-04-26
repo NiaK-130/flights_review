@@ -27,9 +27,8 @@ const Main = styled.div`
 
 const Airline = (props) => {
     const [airline, setAirline] = useState({})
-    const [review, setReview] = useState({ title: '', description: '', score: 0 })
+    const [review, setReview] = useState({})
     const [loaded, setLoaded] = useState(false)
-    
 
     useEffect(() => {
         const slug = props.match.params.slug
@@ -82,6 +81,7 @@ const Airline = (props) => {
     let reviews
     if (loaded && airline.included) {
     reviews = airline.included.map( (item, index) => {
+       
         return (
             <Review
                 key = {index}
